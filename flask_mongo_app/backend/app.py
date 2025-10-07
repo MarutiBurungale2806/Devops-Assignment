@@ -5,7 +5,7 @@ import json, os
 app = Flask(__name__, template_folder="../frontend/templates", static_folder="../frontend/static")
 
 # ---------- MongoDB Setup ----------
-MONGO_URI = "mongodb+srv://maruti28061998:GXanxUADOThHfTo0@cluster0.pmfw3ts.mongodb.net/test_db?retryWrites=true&w=majority"
+MONGO_URI = "mongodb+srv://maruti28061998:GXanxUAwefThHfTo0@cluster0.pmfw3ts.mongodb.net/test_db?retryWrites=true&w=majority"
 client = MongoClient(MONGO_URI)
 db = client["flaskdb"]
 collection = db["users"]
